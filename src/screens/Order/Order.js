@@ -1,13 +1,12 @@
 import React from 'react';
-import Nav from '../../components/Header/Nav'
-import Footer from '../../components/Footer/Footer'
+import UnderConstruction from '../../components/UnderConstruction';
+
 
 
 const Order = () => {
     return (
         <div>
-            <Nav />
-            <Footer />
+            <UnderConstruction />
         </div>
     );
 };

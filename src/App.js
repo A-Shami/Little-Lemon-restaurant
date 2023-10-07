@@ -7,11 +7,15 @@ import Menu from './screens/Menu/Menu';
 import Order from './screens/Order/Order';
 import Reservation from './screens/Reservations/Reservations';
 import Login from './screens/Login/Login';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Header/Nav';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Nav />
         <Routes >
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
@@ -20,6 +24,7 @@ function App() {
           <Route path='/Reservation' element={<Reservation />} />
           <Route path='/Login' element={<Login />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,18 +1,15 @@
-/* Root container for the entire page */
-.root {
+/*.root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
-/* Footer container */
+*/
 .footer {
     background-color: #495E57;
     color: #fff;
     padding: 20px 0;
 }
 
-/* Footer content container */
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -22,13 +19,11 @@
     padding: 0 20px;
 }
 
-/* Footer section style */
 .footer-section {
     flex: 1;
     padding: 20px;
 }
 
-/* Links style */
 .footer-links a {
     color: #fff;
     text-decoration: none;
@@ -36,13 +31,13 @@
     margin-bottom: 10px;
 }
 
-/* Contact information style */
+
+
 .footer-contact {
     font-weight: bold;
     color: #fff;
 }
 
-/* Social media icons style */
 .footer-social {
     display: flex;
     align-items: center;
@@ -56,7 +51,6 @@
     margin: 10px;
 }
 
-/* Copyright and credits style */
 .footer-credits {
     text-align: center;
     padding-top: 20px;
@@ -70,31 +64,4 @@
 
 .footer {
     overflow-x: hidden;
-}
-
-@media screen and (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        padding-right: 100px;
-    }
-
-    .footer-section {
-        flex: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-section h3 {
-        padding-left: 43px;
-    }
-
-    .footer-social {
-        margin-top: 20px;
-        padding-left: 26%;
-    }
-
-    .footer-contact {
-        padding: 0;
-    }
 }

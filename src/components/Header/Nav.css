@@ -28,7 +28,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline solid #495E57;
+    transition: background-color 0.5s, border-color 0.5s, color 0.5s;
+    background-color: #F4CE14;
+    padding: 20px;
+
 }
 
 nav ul li a:focus {
@@ -53,6 +56,8 @@ nav ul li a:focus {
     align-items: center;
 }
 
+
+
 .nav-links.visible {
     flex-direction: column;
     position: absolute;
@@ -74,9 +79,65 @@ nav ul li a:focus {
     padding-right: 10px;
 }
 
+.nav-links li:nth-child(4) .active-link,
+.nav-links li:nth-child(5) .active-link {
+    background-color: #F4CE14;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 
+
+
+@media screen and (max-width: 1000px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.visible {
+        display: flex;
+        background: #333333;
+        z-index: 1000;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        background: #fff;
+        padding: 10px 8%;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .bar {
+        background: #333333;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .active-link {
+        background-color: #F4CE14;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .menu-icon {
