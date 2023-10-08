@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Little-Lemon-restaurant/static/css/main.0314c924.css",
+    "main.js": "/Little-Lemon-restaurant/static/js/main.2ac1cbad.js",
+    "static/media/chefs-mario-and-adrian_a.jpg": "/Little-Lemon-restaurant/static/media/chefs-mario-and-adrian_a.baf0d2e31dc6977f913f.jpg",
+    "static/media/chefs-mario-and-adrian_b.jpg": "/Little-Lemon-restaurant/static/media/chefs-mario-and-adrian_b.5d8cccd399ab68c5c40b.jpg",
+    "static/media/restaurant-food.jpg": "/Little-Lemon-restaurant/static/media/restaurant-food.827fb0bfe6f625329f41.jpg",
+    "static/media/logo-white.png": "/Little-Lemon-restaurant/static/media/logo-white.d09eb2af6c5a2225eedf.png",
+    "static/media/customer1.jpg": "/Little-Lemon-restaurant/static/media/customer1.ccdcea01362423e8e2bf.jpg",
+    "static/media/customer3.jpg": "/Little-Lemon-restaurant/static/media/customer3.ba5a7f9f30d58ab385d9.jpg",
+    "static/media/customer4.jpg": "/Little-Lemon-restaurant/static/media/customer4.fa4be855aa1466a1fcb3.jpg",
+    "static/media/customer2.jpg": "/Little-Lemon-restaurant/static/media/customer2.333854849cb34643a28e.jpg",
+    "static/media/logo.png": "/Little-Lemon-restaurant/static/media/logo.e68246686f716ff6e5d8.png",
+    "index.html": "/Little-Lemon-restaurant/index.html",
+    "main.0314c924.css.map": "/Little-Lemon-restaurant/static/css/main.0314c924.css.map",
+    "main.2ac1cbad.js.map": "/Little-Lemon-restaurant/static/js/main.2ac1cbad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0314c924.css",
+    "static/js/main.2ac1cbad.js"
+  ]
+}
