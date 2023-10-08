@@ -12,6 +12,10 @@ function Nav() {
         setMenuOpen(!menuOpen);
     }
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    }
+
     return (
         <nav className={`navbar ${menuOpen ? "open" : ""}`}>
             <NavLink to='/' className="logo">
@@ -26,22 +30,22 @@ function Nav() {
 
             <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
                 <li>
-                    <NavLink to='/' className={location.pathname === '/' ? 'active-link' : ''}>Home</NavLink>
+                    <NavLink to='/' onClick={closeMenu} className={location.pathname === '/' ? 'active-link' : ''}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/Menu' className={location.pathname === '/Menu' ? 'active-link' : ''}>Menu</NavLink>
+                    <NavLink to='/Menu' onClick={closeMenu} className={location.pathname === '/Menu' ? 'active-link' : ''}>Menu</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/About' className={location.pathname === '/About' ? 'active-link' : ''}>About</NavLink>
+                    <NavLink to='/About' onClick={closeMenu} className={location.pathname === '/About' ? 'active-link' : ''}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/Reservation' className={location.pathname === '/Reservation' ? 'active-link' : ''}>Reservation</NavLink>
+                    <NavLink to='/Reservation' onClick={closeMenu} className={location.pathname === '/Reservation' ? 'active-link' : ''}>Reservation</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/Order' className={location.pathname === '/Order' ? 'active-link' : ''}>Order Now</NavLink>
+                    <NavLink to='/Order' onClick={closeMenu} className={location.pathname === '/Order' ? 'active-link' : ''}>Order Now</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/Login' className={location.pathname === '/Login' ? 'active-link' : ''}>Log in</NavLink>
+                    <NavLink to='/Login' onClick={closeMenu} className={location.pathname === '/Login' ? 'active-link' : ''}>Log in</NavLink>
                 </li>
             </ul>
         </nav>
